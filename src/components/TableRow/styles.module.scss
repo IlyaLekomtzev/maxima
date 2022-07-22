@@ -1,0 +1,19 @@
+.row {
+    width: 100%;
+    display: grid;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .1s linear;
+
+    &:hover {
+        background-color: var(--light-red);
+    }
+
+    &:active {
+        background-color: var(--red);
+    }
+}
+
+.fill {
+    background-color: var(--light-blue);
+}

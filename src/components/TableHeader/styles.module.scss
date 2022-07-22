@@ -1,0 +1,9 @@
+.header {
+    width: 100%;
+    display: grid;
+    border-bottom: 2px solid var(--blue);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+}
