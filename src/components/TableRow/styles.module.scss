@@ -1,3 +1,8 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
 .row {
     width: 100%;
     display: grid;
@@ -16,4 +21,8 @@
 
 .fill {
     background-color: var(--light-blue);
+}
+
+.selected {
+    background-color: var(--light-red);
 }

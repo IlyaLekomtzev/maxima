@@ -27,9 +27,7 @@ const App = () => {
 	};
 
 	const handleDeleteRow = (row: TableRowType) => {
-		if (window.confirm('Delete row?')) {
-			dispatch(removeItem(row.key));
-		}
+		dispatch(removeItem(row.key));
 	};
 
 	return (
